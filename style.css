@@ -14,17 +14,15 @@
 
 }
 
-.background {
-    background: url('./images/redbull\ background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 .titre {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .logo-left {
@@ -35,6 +33,10 @@
 .logo-right {
     width: 143px;
     padding-left: 10px;
+}
+
+.background {
+    width: 1850px;
 }
 
 
@@ -67,11 +69,25 @@ h2 {
     width: 50px;
 }
 
-table {
-    border: 1px solid black;
+.classement {
+    background-color: black;
+}
+
+.pilotes {
+    color: yellow;
+}
+
+.points {
+    color: red;
 }
 
 td {
-    border: 1px solid black;
+    border: 1px solid wheat;
+    color: white;
     padding: 5px;
+    text-align: center;
+}
+
+.imgEcurie {
+    height: 25px;
 }
