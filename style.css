@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Futura Light';
+    src: url('./fonts/Futura/Futura\ Light\ font.ttf');
+    font-weight: medium;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('./fonts/Futura/Futura\ Bold\ font.ttf');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.background {
+    background: url('./images/redbull\ background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.logo-left {
+    width: 150px;
+    padding-right: 10px;
+}
+
+.logo-right {
+    width: 143px;
+    padding-left: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Futura Bold";
+}
+
+h2 {
+    text-decoration: black underline;
+    font-family: "Futura Light";
+}
+
+.rbimg {
+    width: 100%;
+}
+
+.texte-mis-en-forme-exemple {
+    font-size: 30px;
+    color: yellow;
+    background-color: #436770;
+}
+
+.titre-page-exemple {
+    text-align: center;
+    border: 10px dotted red;
+}
+
+.petite-image-exemple {
+    width: 50px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
